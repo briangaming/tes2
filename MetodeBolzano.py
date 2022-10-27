@@ -13,7 +13,7 @@ ax.plot(0, 1, "^k", transform=ax.get_xaxis_transform(), clip_on=False)
 
 # fungsi yang akan dicari akar persamaannya
 def fungsi(x):
-    return np.exp(x) - x - 2
+    return (3 * (x ** 3) - (2 * (x ** 2)) + 1)
 
 
 # plot grafik
